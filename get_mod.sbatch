@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=aces-modules
-#SBATCH --cpus-per-task=50
+#SBATCH --cpus-per-task=48
 #SBATCH --time=01:00:00
 #SBATCH --output=aces-modules-%j.out
 #SBATCH --error=aces-modules-%j.err
